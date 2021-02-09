@@ -62,34 +62,50 @@ jobs:
           CONFIG_TARGET_ramips_mt7620=y
           CONFIG_TARGET_ramips_mt7620_DEVICE_hiwifi_hc5661=y
           CONFIG_LIBSODIUM_MINIMAL=y
-          CONFIG_PACKAGE_bash=y
-          CONFIG_PACKAGE_boost=y
-          CONFIG_PACKAGE_boost-date_time=y
-          CONFIG_PACKAGE_boost-program_options=y
-          CONFIG_PACKAGE_boost-system=y
-          CONFIG_PACKAGE_ca-bundle=y
+          CONFIG_PACKAGE_bash=m
+          CONFIG_PACKAGE_boost=m
+          CONFIG_PACKAGE_boost-date_time=m
+          CONFIG_PACKAGE_boost-program_options=m
+          CONFIG_PACKAGE_boost-system=m
+          CONFIG_PACKAGE_ca-bundle=m
+          CONFIG_PACKAGE_coreutils=m
+          CONFIG_PACKAGE_coreutils-base64=m
+          CONFIG_PACKAGE_dns2socks=m
           # CONFIG_PACKAGE_etherwake is not set
-          CONFIG_PACKAGE_ipt2socks=y
-          CONFIG_PACKAGE_kcptun-client=y
-          # CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
-          CONFIG_PACKAGE_libatomic=y
-          CONFIG_PACKAGE_libev=y
-          CONFIG_PACKAGE_libevent2=y
-          CONFIG_PACKAGE_libmaxminddb=y
-          CONFIG_PACKAGE_libmbedtls=y
-          CONFIG_PACKAGE_libncurses=y
-          CONFIG_PACKAGE_libnss=y
-          CONFIG_PACKAGE_libreadline=y
-          CONFIG_PACKAGE_libsodium=y
-          CONFIG_PACKAGE_libsqlite3=y
-          CONFIG_PACKAGE_libstdcpp=y
-          CONFIG_PACKAGE_lua-maxminddb=y
-          CONFIG_PACKAGE_luasocket=y
-          # CONFIG_PACKAGE_luci-app-accesscontrol is not set
-          # CONFIG_PACKAGE_luci-app-nlbwmon is not set
+          CONFIG_PACKAGE_ipset=m
+          CONFIG_PACKAGE_ipt2socks=m
+          CONFIG_PACKAGE_iptables-mod-tproxy=m
+          CONFIG_PACKAGE_kcptun-client=m
+          CONFIG_PACKAGE_kmod-ip6tables=m
+          CONFIG_PACKAGE_kmod-ipt-tproxy=m
+          CONFIG_PACKAGE_kmod-nf-ipt6=m
+          CONFIG_PACKAGE_kmod-nf-reject6=m
+          CONFIG_PACKAGE_libatomic=m
+          CONFIG_PACKAGE_libbz2=m
+          CONFIG_PACKAGE_libdb47=m
+          CONFIG_PACKAGE_libev=m
+          CONFIG_PACKAGE_libevent2=m
+          CONFIG_PACKAGE_libffi=m
+          CONFIG_PACKAGE_libgdbm=m
+          CONFIG_PACKAGE_libipset=m
+          CONFIG_PACKAGE_liblzma=m
+          CONFIG_PACKAGE_libmaxminddb=m
+          CONFIG_PACKAGE_libmbedtls=m
+          CONFIG_PACKAGE_libmnl=m
+          CONFIG_PACKAGE_libncurses=m
+          CONFIG_PACKAGE_libnss=m
+          CONFIG_PACKAGE_libreadline=m
+          CONFIG_PACKAGE_libsodium=m
+          CONFIG_PACKAGE_libsqlite3=m
+          CONFIG_PACKAGE_libstdcpp=m
+          CONFIG_PACKAGE_libxml2=m
+          CONFIG_PACKAGE_lua-maxminddb=m
+          CONFIG_PACKAGE_luasocket=m
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+          CONFIG_PACKAGE_luci-app-shadowsocks-libev=m
+          CONFIG_PACKAGE_luci-app-ssr-plus=m
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2=y
@@ -98,9 +114,10 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
+          CONFIG_PACKAGE_luci-app-ssrserver-python=m
           # CONFIG_PACKAGE_luci-app-unblockmusic is not set
+          CONFIG_PACKAGE_luci-app-v2ray-server=m
           # CONFIG_PACKAGE_luci-app-vlmcsd is not set
-          # CONFIG_PACKAGE_luci-app-vsftpd is not set
           CONFIG_PACKAGE_luci-app-vssr=m
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Server=y
@@ -108,22 +125,51 @@ jobs:
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray=y
           # CONFIG_PACKAGE_luci-app-wol is not set
-          CONFIG_PACKAGE_luci-theme-argon=y
-          CONFIG_PACKAGE_naiveproxy=y
-          # CONFIG_PACKAGE_nlbwmon is not set
-          CONFIG_PACKAGE_nspr=y
-          CONFIG_PACKAGE_redsocks2=y
-          CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
-          CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
-          CONFIG_PACKAGE_shadowsocksr-libev-server=y
-          CONFIG_PACKAGE_simple-obfs=y
-          CONFIG_PACKAGE_terminfo=y
-          CONFIG_PACKAGE_trojan=y
-          CONFIG_PACKAGE_v2ray-plugin=y
+          CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=m
+          CONFIG_PACKAGE_luci-i18n-ssrserver-python-zh-cn=m
+          CONFIG_PACKAGE_luci-i18n-v2ray-server-zh-cn=m
+          CONFIG_PACKAGE_microsocks=m
+          CONFIG_PACKAGE_naiveproxy=m
+          CONFIG_PACKAGE_nspr=m
+          CONFIG_PACKAGE_python3=m
+          CONFIG_PACKAGE_python3-asyncio=m
+          CONFIG_PACKAGE_python3-base=m
+          CONFIG_PACKAGE_python3-cgi=m
+          CONFIG_PACKAGE_python3-cgitb=m
+          CONFIG_PACKAGE_python3-codecs=m
+          CONFIG_PACKAGE_python3-ctypes=m
+          CONFIG_PACKAGE_python3-dbm=m
+          CONFIG_PACKAGE_python3-decimal=m
+          CONFIG_PACKAGE_python3-distutils=m
+          CONFIG_PACKAGE_python3-email=m
+          CONFIG_PACKAGE_python3-gdbm=m
+          CONFIG_PACKAGE_python3-light=m
+          CONFIG_PACKAGE_python3-logging=m
+          CONFIG_PACKAGE_python3-lzma=m
+          CONFIG_PACKAGE_python3-multiprocessing=m
+          CONFIG_PACKAGE_python3-ncurses=m
+          CONFIG_PACKAGE_python3-openssl=m
+          CONFIG_PACKAGE_python3-pydoc=m
+          CONFIG_PACKAGE_python3-sqlite3=m
+          CONFIG_PACKAGE_python3-unittest=m
+          CONFIG_PACKAGE_python3-urllib=m
+          CONFIG_PACKAGE_python3-xml=m
+          CONFIG_PACKAGE_redsocks2=m
+          CONFIG_PACKAGE_resolveip=m
+          CONFIG_PACKAGE_shadowsocks-libev-ss-local=m
+          CONFIG_PACKAGE_shadowsocks-libev-ss-redir=m
+          CONFIG_PACKAGE_shadowsocksr-libev-alt=m
+          CONFIG_PACKAGE_shadowsocksr-libev-server=m
+          CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=m
+          CONFIG_PACKAGE_simple-obfs=m
+          CONFIG_PACKAGE_tcping=m
+          CONFIG_PACKAGE_terminfo=m
+          CONFIG_PACKAGE_trojan=m
+          CONFIG_PACKAGE_unzip=m
+          CONFIG_PACKAGE_v2ray-plugin=m
           # CONFIG_PACKAGE_vlmcsd is not set
-          # CONFIG_PACKAGE_vsftpd-alt is not set
           # CONFIG_PACKAGE_wol is not set
-          CONFIG_PACKAGE_xray-core=y
+          CONFIG_PACKAGE_xray-core=m
           CONFIG_SQLITE3_DYNAMIC_EXTENSIONS=y
           CONFIG_SQLITE3_FTS3=y
           CONFIG_SQLITE3_FTS4=y
