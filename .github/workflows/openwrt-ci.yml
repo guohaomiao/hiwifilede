@@ -117,7 +117,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-unblockmusic is not set
           CONFIG_PACKAGE_luci-app-v2ray-server=m
           # CONFIG_PACKAGE_luci-app-vlmcsd is not set
-          CONFIG_PACKAGE_luci-app-vssr=m
+          CONFIG_PACKAGE_luci-app-vssr=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Server=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray=y
