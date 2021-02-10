@@ -101,17 +101,16 @@ jobs:
           CONFIG_PACKAGE_libxml2=m
           CONFIG_PACKAGE_lua-maxminddb=m
           CONFIG_PACKAGE_luasocket=m
+          # CONFIG_PACKAGE_luci-app-accesscontrol is not set
+          # CONFIG_PACKAGE_luci-app-arpbind is not set
+          # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
-          CONFIG_PACKAGE_luci-app-shadowsocks-libev=m
+          CONFIG_PACKAGE_luci-app-shadowsocks-libev=y
           CONFIG_PACKAGE_luci-app-ssr-plus=m
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
           CONFIG_PACKAGE_luci-app-ssrserver-python=m
@@ -119,9 +118,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-v2ray-server=m
           # CONFIG_PACKAGE_luci-app-vlmcsd is not set
           CONFIG_PACKAGE_luci-app-vssr=m
-          CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Server=y
-          CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray=y
           # CONFIG_PACKAGE_luci-app-wol is not set
@@ -182,6 +179,10 @@ jobs:
           CONFIG_boost-runtime-shared=y
           CONFIG_boost-static-and-shared-libs=y
           CONFIG_boost-variant-release=y
+          CONFIG_PACKAGE_ip-full=y
+          CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
+          CONFIG_PACKAGE_libelf=y
+          CONFIG_PACKAGE_nlbwmon=y
 
           #
           # ========================固件定制部分结束========================
