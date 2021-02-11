@@ -82,7 +82,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
-          CONFIG_PACKAGE_luci-app-ssr-plus=y
+          CONFIG_PACKAGE_luci-app-ssr-plus=m
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
@@ -92,8 +92,8 @@ jobs:
           # CONFIG_PACKAGE_luci-app-vlmcsd is not set
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
           # CONFIG_PACKAGE_luci-app-wol is not set
-          CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-ssrserver-python-zh-cn=y
+          CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=m
+          # CONFIG_PACKAGE_luci-i18n-ssrserver-python-zh-cn=y
           # CONFIG_PACKAGE_nlbwmon is not set
           CONFIG_PACKAGE_python3=y
           CONFIG_PACKAGE_python3-asyncio=y
