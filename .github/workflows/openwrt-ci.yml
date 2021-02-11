@@ -77,6 +77,10 @@ jobs:
           CONFIG_PACKAGE_libsqlite3=y
           CONFIG_PACKAGE_libxml2=y
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
+          # CONFIG_PACKAGE_luci-app-arpbind is not set
+          # CONFIG_PACKAGE_luci-app-autoreboot is not set
+          # CONFIG_PACKAGE_luci-app-ddns is not set
+          # CONFIG_PACKAGE_luci-app-filetransfer is not set
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-ramfree is not set
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
@@ -84,16 +88,13 @@ jobs:
           # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
           CONFIG_PACKAGE_luci-app-ssr-plus=m
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
-          CONFIG_PACKAGE_luci-app-ssrserver-python=y
           # CONFIG_PACKAGE_luci-app-unblockmusic is not set
           # CONFIG_PACKAGE_luci-app-vlmcsd is not set
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
           # CONFIG_PACKAGE_luci-app-wol is not set
           CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=m
-          # CONFIG_PACKAGE_luci-i18n-ssrserver-python-zh-cn=y
           # CONFIG_PACKAGE_nlbwmon is not set
           CONFIG_PACKAGE_python3=y
           CONFIG_PACKAGE_python3-asyncio=y
@@ -139,20 +140,22 @@ jobs:
           CONFIG_PACKAGE_coreutils=y
           CONFIG_PACKAGE_coreutils-base64=y
           CONFIG_PACKAGE_dns2socks=y
+          CONFIG_PACKAGE_ip-full=y
           CONFIG_PACKAGE_ipset=y
           CONFIG_PACKAGE_iptables-mod-tproxy=y
           CONFIG_PACKAGE_kmod-ip6tables=y
           CONFIG_PACKAGE_kmod-ipt-tproxy=y
           CONFIG_PACKAGE_kmod-nf-ipt6=y
           CONFIG_PACKAGE_kmod-nf-reject6=y
+          CONFIG_PACKAGE_libelf=y
           CONFIG_PACKAGE_libipset=y
           CONFIG_PACKAGE_libmnl=y
+          CONFIG_PACKAGE_luci-lib-fs=y
           CONFIG_PACKAGE_microsocks=y
           CONFIG_PACKAGE_resolveip=y
           CONFIG_PACKAGE_shadowsocksr-libev-alt=y
           CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
           CONFIG_PACKAGE_tcping=y
-
           #
           # ========================固件定制部分结束========================
           #
