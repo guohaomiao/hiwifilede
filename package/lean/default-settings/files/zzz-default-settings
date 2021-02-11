@@ -2,6 +2,7 @@
 
 uci set luci.main.lang=zh_cn
 uci commit luci
+uci commit shadsocksr
 
 uci set system.@system[0].timezone=CST-8
 uci set system.@system[0].zonename=Asia/Shanghai
